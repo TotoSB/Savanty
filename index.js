@@ -6,6 +6,7 @@ const contenido1 = document.getElementById('content1')
 function deslizar(){
     flecha1.style.opacity= '0'
     flecha1.style.display= 'none'
+    contenido1.style.width='50vw'
     contenido2.classList.add('animate__fadeInRightBig')
     contenido2.style.display = 'block'
     contenido2.style.backgroundColor= '#fff'
@@ -16,14 +17,12 @@ function deslizar(){
     contenido2.style.textAlign= 'center'
     contenido2.style.alignItems= 'center'
     
-    contenido1.style.marginRight= '10px'
     contenido1.style.height= '100%'
     flecha2.style.opacity= '1'
+    flecha2.style.color= '#000'
     flecha2.style.display= 'block'
-    flecha2.style.position= 'absolute'
-    flecha2.style.left= '100%'
-    flecha2.style.top= '45%'
-    flecha2.style.marginLeft= '10px'
+    flecha2.style.top= '75%'
+    flecha2.style.left= '85%'
 }
 
 function ocultar(){
